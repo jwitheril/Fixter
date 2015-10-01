@@ -13,6 +13,8 @@
 		19D3BCC21BBC297E007513EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D3BCC11BBC297E007513EE /* Images.xcassets */; };
 		19D3BCC51BBC297E007513EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19D3BCC31BBC297E007513EE /* LaunchScreen.xib */; };
 		19D3BCD11BBC297E007513EE /* FixterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D3BCD01BBC297E007513EE /* FixterTests.swift */; };
+		19D3BCDB1BBC2C23007513EE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D3BCDA1BBC2C23007513EE /* Post.swift */; };
+		19D3BCDC1BBC8DFB007513EE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D3BCDA1BBC2C23007513EE /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		19D3BCCA1BBC297E007513EE /* FixterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D3BCCF1BBC297E007513EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19D3BCD01BBC297E007513EE /* FixterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixterTests.swift; sourceTree = "<group>"; };
+		19D3BCDA1BBC2C23007513EE /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 			children = (
 				19D3BCBA1BBC297E007513EE /* AppDelegate.swift */,
 				19D3BCBC1BBC297E007513EE /* ViewController.swift */,
+				19D3BCDA1BBC2C23007513EE /* Post.swift */,
 				19D3BCBE1BBC297E007513EE /* Main.storyboard */,
 				19D3BCC11BBC297E007513EE /* Images.xcassets */,
 				19D3BCC31BBC297E007513EE /* LaunchScreen.xib */,
@@ -212,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D3BCDB1BBC2C23007513EE /* Post.swift in Sources */,
 				19D3BCBD1BBC297E007513EE /* ViewController.swift in Sources */,
 				19D3BCBB1BBC297E007513EE /* AppDelegate.swift in Sources */,
 			);
@@ -222,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19D3BCD11BBC297E007513EE /* FixterTests.swift in Sources */,
+				19D3BCDC1BBC8DFB007513EE /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
